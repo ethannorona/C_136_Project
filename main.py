@@ -9,7 +9,6 @@ def index():
         "data": data,
         "message": "success"
     }), 200
-    return "Index"
 
 @app.route("/star")
 def star():
